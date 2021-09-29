@@ -32,7 +32,7 @@ namespace UserMaintenance0
         {
             var u = new User()
             {
-                FullName = lblLastName.Text + " " + lblFirstName.Text
+                FullName = txtLastName.Text + " " + txtFirstName.Text
             };
             users.Add(u);
         }
