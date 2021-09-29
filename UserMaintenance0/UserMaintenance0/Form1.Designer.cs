@@ -29,94 +29,37 @@ namespace UserMaintenance0
         /// </summary>
         private void InitializeComponent()
         {
-            this.listUsers = new System.Windows.Forms.ListBox();
-            this.txtLastName = new System.Windows.Forms.TextBox();
-            this.lblLastName = new System.Windows.Forms.Label();
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.lblFirstName = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
-            // 
-            // listUsers
-            // 
-            this.listUsers.FormattingEnabled = true;
-            this.listUsers.ItemHeight = 16;
-            this.listUsers.Location = new System.Drawing.Point(12, 6);
-            this.listUsers.Name = "listUsers";
-            this.listUsers.Size = new System.Drawing.Size(259, 420);
-            this.listUsers.TabIndex = 0;
+  
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(342, 16);
-            this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(240, 22);
-            this.txtLastName.TabIndex = 1;
-            // 
+           
             // lblLastName
             // 
-            this.lblLastName.AutoSize = true;
-            this.lblLastName.Location = new System.Drawing.Point(290, 21);
-            this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(46, 17);
-            this.lblLastName.TabIndex = 3;
-            this.lblLastName.Text = "label1";
+           
             // 
             // lblFirstName
             // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblFirstName.Location = new System.Drawing.Point(290, 67);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(46, 17);
-            this.lblFirstName.TabIndex = 4;
-            this.lblFirstName.Text = "label2";
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(293, 106);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(289, 23);
-            this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "button1";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+         
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(342, 64);
-            this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(240, 22);
-            this.txtFirstName.TabIndex = 6;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(293, 403);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Fáljba írás";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(430, 403);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblFirstName);
-            this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.txtLastName);
-            this.Controls.Add(this.listUsers);
+           
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -126,12 +69,6 @@ namespace UserMaintenance0
 
         #endregion
 
-        private System.Windows.Forms.ListBox listUsers;
-        private System.Windows.Forms.TextBox txtLastName;
-        private System.Windows.Forms.Label lblLastName;
-        private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox lblFirstName;
     }
 }
 
