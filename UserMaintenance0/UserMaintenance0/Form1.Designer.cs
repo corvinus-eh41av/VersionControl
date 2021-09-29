@@ -42,42 +42,46 @@ namespace UserMaintenance0
             // listUsers
             // 
             this.listUsers.FormattingEnabled = true;
-            this.listUsers.ItemHeight = 16;
-            this.listUsers.Location = new System.Drawing.Point(12, 6);
+            this.listUsers.Location = new System.Drawing.Point(9, 5);
+            this.listUsers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listUsers.Name = "listUsers";
-            this.listUsers.Size = new System.Drawing.Size(259, 420);
+            this.listUsers.Size = new System.Drawing.Size(195, 342);
             this.listUsers.TabIndex = 0;
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(342, 16);
+            this.txtLastName.Location = new System.Drawing.Point(256, 13);
+            this.txtLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(240, 22);
+            this.txtLastName.Size = new System.Drawing.Size(181, 20);
             this.txtLastName.TabIndex = 1;
             // 
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
-            this.lblLastName.Location = new System.Drawing.Point(290, 21);
+            this.lblLastName.Location = new System.Drawing.Point(218, 17);
+            this.lblLastName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(46, 17);
+            this.lblLastName.Size = new System.Drawing.Size(41, 15);
             this.lblLastName.TabIndex = 3;
             this.lblLastName.Text = "label1";
             // 
             // lblFirstName
             // 
             this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(290, 67);
+            this.lblFirstName.Location = new System.Drawing.Point(218, 54);
+            this.lblFirstName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(46, 17);
+            this.lblFirstName.Size = new System.Drawing.Size(41, 15);
             this.lblFirstName.TabIndex = 4;
             this.lblFirstName.Text = "label2";
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(293, 106);
+            this.btnAdd.Location = new System.Drawing.Point(220, 86);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(289, 23);
+            this.btnAdd.Size = new System.Drawing.Size(217, 19);
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "button1";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -85,16 +89,18 @@ namespace UserMaintenance0
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(342, 64);
+            this.txtFirstName.Location = new System.Drawing.Point(256, 52);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(240, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(181, 20);
             this.txtFirstName.TabIndex = 6;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(293, 403);
+            this.button1.Location = new System.Drawing.Point(220, 327);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 23);
+            this.button1.Size = new System.Drawing.Size(104, 19);
             this.button1.TabIndex = 7;
             this.button1.Text = "Write";
             this.button1.UseVisualStyleBackColor = true;
@@ -102,18 +108,20 @@ namespace UserMaintenance0
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(443, 403);
+            this.button2.Location = new System.Drawing.Point(332, 327);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(139, 23);
+            this.button2.Size = new System.Drawing.Size(104, 19);
             this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
+            this.button2.Text = "Delete";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtFirstName);
@@ -122,6 +130,7 @@ namespace UserMaintenance0
             this.Controls.Add(this.lblLastName);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.listUsers);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

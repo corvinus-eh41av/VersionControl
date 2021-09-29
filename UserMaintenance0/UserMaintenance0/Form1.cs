@@ -56,5 +56,13 @@ namespace UserMaintenance0
                 writer.Close();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int del;
+            del = listUsers.SelectedIndex;
+            users.RemoveAt(del);
+            
+        }
     }
 }
