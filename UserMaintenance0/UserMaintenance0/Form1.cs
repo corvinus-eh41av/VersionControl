@@ -62,6 +62,7 @@ namespace UserMaintenance0
             int del;
             del = listUsers.SelectedIndex;
             users.RemoveAt(del);
+            //asd
             
         }
     }
