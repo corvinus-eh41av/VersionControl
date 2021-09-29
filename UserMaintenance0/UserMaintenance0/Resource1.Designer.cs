@@ -63,14 +63,14 @@ namespace UserMaintenance0 {
         /// <summary>
         ///   Looks up a localized string similar to Hozzáadás.
         /// </summary>
-        internal static string Add {
+        internal static string add {
             get {
-                return ResourceManager.GetString("Add", resourceCulture);
+                return ResourceManager.GetString("add", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Vezetéknév.
+        ///   Looks up a localized string similar to Utónév.
         /// </summary>
         internal static string FirstName {
             get {
