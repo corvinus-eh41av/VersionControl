@@ -29,7 +29,7 @@ namespace UserMaintenance0
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listUsers = new System.Windows.Forms.ListBox();
             this.lblLastName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,14 +37,14 @@ namespace UserMaintenance0
             this.lblFirstName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listUsers
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 6);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(259, 420);
-            this.listBox1.TabIndex = 0;
+            this.listUsers.FormattingEnabled = true;
+            this.listUsers.ItemHeight = 16;
+            this.listUsers.Location = new System.Drawing.Point(12, 6);
+            this.listUsers.Name = "listUsers";
+            this.listUsers.Size = new System.Drawing.Size(259, 420);
+            this.listUsers.TabIndex = 0;
             // 
             // lblLastName
             // 
@@ -79,6 +79,7 @@ namespace UserMaintenance0
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "button1";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // lblFirstName
             // 
@@ -97,7 +98,7 @@ namespace UserMaintenance0
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listUsers);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -107,7 +108,7 @@ namespace UserMaintenance0
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listUsers;
         private System.Windows.Forms.TextBox lblLastName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
