@@ -19,9 +19,9 @@ namespace UserMaintenance0
         public Form1()
         {
             InitializeComponent();
-            lblLastName.Text = Resource1.LastName; 
-            lblFirstName.Text = Resource1.FirstName; 
-            btnAdd.Text = Resource1.add;
+            lblLastName.Text = Resource1.FullName; 
+            lblFirstName.Text = Resource1.FullName; 
+            btnAdd.Text = Resource1.Add;
 
             listUsers.DataSource = users;
             listUsers.ValueMember = "ID";
@@ -32,8 +32,7 @@ namespace UserMaintenance0
         {
             var u = new User()
             {
-                LastName = txtLastName.Text,
-                FirstName = txtFirstName.Text
+                FullName = txtLastName.Text + " " + txtFirstName.Text
             };
             users.Add(u);
         }
@@ -41,7 +40,9 @@ namespace UserMaintenance0
         private void button1_Click(object sender, EventArgs e)
         {
             SaveFileDialog save = new SaveFileDialog();
+
             save.FileName = "DefaultOutputName.txt";
+
             save.Filter = "Text File | *.txt";
 
             if (save.ShowDialog() == DialogResult.OK)
@@ -49,13 +50,11 @@ namespace UserMaintenance0
                 StreamWriter writer = new StreamWriter(save.OpenFile());
                 for (int i = 0; i < 2; i++)
                 {
-                    writer.WriteLine(Resource1.FirstName.ToString() + " " + Resource1.LastName.ToString());
+                    writer.WriteLine(Resource1.FullName[i].ToString());
                 }
                 writer.Dispose();
                 writer.Close();
             }
-
-
         }
     }
 }
