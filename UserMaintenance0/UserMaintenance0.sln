@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMaintenance0", "UserMaintenance0\UserMaintenance0.csproj", "{764C4ED9-4CF6-48D6-B4AB-1619CBF8F790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export", "..\..\Export\Export\Export.csproj", "{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{764C4ED9-4CF6-48D6-B4AB-1619CBF8F790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{764C4ED9-4CF6-48D6-B4AB-1619CBF8F790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{764C4ED9-4CF6-48D6-B4AB-1619CBF8F790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
