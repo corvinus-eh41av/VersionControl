@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMaintenance0", "UserMai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Export", "..\..\Export\Export\Export.csproj", "{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hatodik_Het", "Hatodik_Het\Hatodik_Het.csproj", "{9172EE3F-4C99-4E45-91C0-D84501BB4EE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A23BF5B-900E-4B0D-B53B-DFFD1F76DE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9172EE3F-4C99-4E45-91C0-D84501BB4EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9172EE3F-4C99-4E45-91C0-D84501BB4EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9172EE3F-4C99-4E45-91C0-D84501BB4EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9172EE3F-4C99-4E45-91C0-D84501BB4EE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
