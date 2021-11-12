@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NyolcadikHet
 {
-    public class BallFactory : IToyFactory
+    public class CarFactory : IToyFactory
     {
         public Toy CreateNew()
         {
