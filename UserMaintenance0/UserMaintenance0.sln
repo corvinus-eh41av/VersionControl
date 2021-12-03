@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NyolcadikHet", "NyolcadikHe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExample.Test", "UnitTestExample.Test\UnitTestExample.Test.csproj", "{6CA6233D-E5EF-4D25-B913-340BBFA0E7DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_het", "9_het\9_het.csproj", "{DE6D2935-E0EF-4648-8319-1FE0F34881E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{6CA6233D-E5EF-4D25-B913-340BBFA0E7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA6233D-E5EF-4D25-B913-340BBFA0E7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA6233D-E5EF-4D25-B913-340BBFA0E7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6D2935-E0EF-4648-8319-1FE0F34881E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6D2935-E0EF-4648-8319-1FE0F34881E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6D2935-E0EF-4648-8319-1FE0F34881E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6D2935-E0EF-4648-8319-1FE0F34881E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
